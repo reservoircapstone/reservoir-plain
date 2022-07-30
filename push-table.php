@@ -1,6 +1,6 @@
 <?php include('resources/views/layouts/header.php'); ?>
 
-<title>Reservoir | Pull Table</title>
+<title>Reservoir | Push Table</title>
 
 <body class="bg-white font-Poppins">
 
@@ -10,8 +10,8 @@
     <div class="ml-auto mr-auto mt-3 w-3/6 overflow-x-auto justify-center relative shadow-md sm:rounded-lg">
         <table class="w-3/6 text-sm text-center text-gray-500 dark:text-gray-400">
             <caption class="p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
-                Pull Customers
-                <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">Browse a list of Customers that ordered through pull.</p>
+                Push Customers
+                <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">Browse a list of Customers that ordered through push.</p>
             </caption>
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
