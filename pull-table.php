@@ -1,5 +1,6 @@
 <?php include('resources/views/layouts/header.php'); ?>
 
+<title>Reservoir | Pull Table</title>
 
 <body class="bg-white font-Poppins">
 
@@ -182,13 +183,6 @@
             </tbody>
         </table>
     </div>
-
-
-    <!-- Hero -->
-    <section class="relative">
-
-    </section>
-
-
     <?php include('resources/views/layouts/footer.php'); ?>
+
 </body>

@@ -13,5 +13,4 @@
   <!-- flowbite -->
   <script src="../path/to/flowbite/dist/flowbite.js"></script>
 
-  <title>Reservoir | Push Customers</title>
 </head>
