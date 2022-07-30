@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./resources/**/*.{html,js,php}", "./index.php"],
+  content: [
+    "./resources/**/*.{html,js,php}",
+    "./index.php",
+    "./pull-table.php",
+    "./node_modules/flowbite/**/*.js",
+  ],
   theme: {
     extend: {
       fontFamily: {

@@ -1,9 +1,10 @@
 <?php include('resources/views/layouts/header.php'); ?>
-<?php include('resources/views/layouts/navigation.php'); ?>
+
 
 
 <body class="bg-white font-Poppins">
 
+  <?php include('resources/views/layouts/navigation.php'); ?>
 
 
   <!-- Hero -->
@@ -196,7 +197,5 @@
     </div>
   </section>
 
-
+  <?php include('resources/views/layouts/footer.php'); ?>
 </body>
-
-<?php include('resources/views/layouts/footer.php'); ?>
