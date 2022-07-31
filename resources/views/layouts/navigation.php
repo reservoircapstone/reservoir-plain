@@ -5,7 +5,7 @@
     <div class="py-1">
       <img class="flex-none w-8 h-8 mr-2.5 -mt-2.3 ml-5" src="resources/img/index-icon.png" alt="index-icon">
     </div>
-    <a href="./index.php">
+    <a href="./index-edited.php">
       <h3 class="cursor-pointer font-sans hover:text-gray-600 text-3xl leading-4.5 font-bold">RESERVOIR</h3>
     </a>
     <ul id="mySidebar" class=" hidden sm:flex flex-1 justify-end items-center gap-12 text-reservoir-blue uppercase text-xs px-7 mb-2">

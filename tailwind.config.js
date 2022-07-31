@@ -2,11 +2,13 @@
 module.exports = {
   content: [
     "./resources/**/*.{html,js,php}",
+    "./node_modules/flowbite/**/*.js",
     "./index.php",
+    "./index-edited.php",
     "./pull-table.php",
     "./login.php",
     "./register-login.php",
-    "./node_modules/flowbite/**/*.js",
+    "./add-product.php",
   ],
   theme: {
     extend: {

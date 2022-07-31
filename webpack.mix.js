@@ -1,6 +1,5 @@
-let mix = require('laravel-mix');
+let mix = require("laravel-mix");
 
-mix.js('resources/js/app.js', 'js')
-  .postCss('resources/css/app.css', 'css', [
-    require('tailwindcss'),
-  ]);
+mix
+  .js("resources/js/app.js", "js")
+  .postCss("resources/css/app.css", "css", [require("tailwindcss")]);

@@ -9,7 +9,7 @@
     <!-- flowbite -->
     <script src="./node_modules/flowbite/dist/flowbite.js"></script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,9 +21,11 @@
     <?php include('resources/views/layouts/navigation.php'); ?>
     <br>
     <br>
+    <div>
+        <h2 class="text-center  flex items-center flex-col mb-4 text-2xl font-extrabold tracking-tight text-slate-600">Welcome to Reservoir! Register Here</h2>
+    </div>
+    <div class="container  justify-center bg-[#FFF] rounded-[10px] shadow-md relative overflow-hidden w-[768px] max-w-full min-h-[480px]" id="container">
 
-    <h2 class="text-center  flex items-center flex-col mb-4 text-2xl font-extrabold tracking-tight text-slate-600">Welcome to Reservoir! Register Here</h2>
-    <div class="container jsutfify-center bg-[#FFF] rounded-[10px] shadow-md relative overflow-hidden w-[768px] max-w-full min-h-[480px]" id="container">
         <div class="form-container sign-up-container">
             <!-- sign up form -->
             <form class="bg-[#FFFFFF] flex items-center justify-center flex-col py-0 px-[50px] h-full text-center" action="#">
@@ -88,4 +90,6 @@
 
 <br>
 <br>
-<?php include('resources/views/layouts/footer.php'); ?>
+
+
+</html>

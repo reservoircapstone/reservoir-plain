@@ -4,7 +4,7 @@
 
 <body class="bg-white font-Poppins">
 
-    <?php include('resources/views/layouts/navigation-copy.php'); ?>
+    <?php include('resources/views/layouts/navigation.php'); ?>
     <!-- table -->
     <button type="button" class="mt-11 ml-96 btn btn-blue hover:bg-reservoir-white hover:text-black"> Add Customer</button>
     <div class="ml-auto mr-auto mt-3 w-3/6 overflow-x-auto justify-center relative shadow-md sm:rounded-lg">
