@@ -4,6 +4,8 @@ module.exports = {
     "./resources/**/*.{html,js,php}",
     "./index.php",
     "./pull-table.php",
+    "./login.php",
+    "./register-login.php",
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {

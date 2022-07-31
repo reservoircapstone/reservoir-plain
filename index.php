@@ -20,7 +20,7 @@
           to make your service more convenient.
         </p>
         <div class="flex justify-center flex-wrap gap-6">
-          <button type="button" class="btn btn-blue hover:bg-reservoir-white hover:text-black" data-modal-toggle="vendor-modal">Get Started</button>
+          <a href="register-login.php"><button type="button" class="btn btn-blue hover:bg-reservoir-white hover:text-black" data-modal-toggle="vendor-modal">Get Started</button></a>
           <button type="button" class="btn btn-white hover:bg-sky-400 hover:text-white">Live Demo</button>
         </div>
         <!-- Temporary Image -->
@@ -197,5 +197,6 @@
     </div>
   </section>
 
-  <?php include('resources/views/layouts/footer.php'); ?>
+
 </body>
+<?php include('resources/views/layouts/footer.php'); ?>
