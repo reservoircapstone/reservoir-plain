@@ -1,6 +1,6 @@
 <?php include('resources/views/layouts/header.php'); ?>
-<?php include('resources/views/layouts/navigation.php'); ?>
 <body>
+  <?php include('resources/views/layouts/navigation.php'); ?>
   <div class="relative bg-white">
       <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-4">
           <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:static">
